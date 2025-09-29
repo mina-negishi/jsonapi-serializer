@@ -23,7 +23,10 @@ Lint/DuplicateMethods:
   Exclude:
     - 'spec/fixtures/*.rb'
 
-RSpec/FilePath:
+RSpec/SpecFilePathFormat:
+  Enabled: false
+  
+RSpec/SpecFilePathSuffix:
   Enabled: false
 
 RSpec/DescribedClass:
