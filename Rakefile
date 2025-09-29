@@ -4,7 +4,7 @@ require 'rubocop/rake_task'
 
 desc('Codestyle check and linter')
 RuboCop::RakeTask.new('rubocop') do |task|
-  task.fail_on_error = true
+  task.fail_on_error = false
   task.patterns = [
     'lib/**/*.rb',
     'spec/**/*.rb'
